@@ -10,7 +10,7 @@ Feel free to create pull request to add more.
     * Iteratively retrieve code from repo based on similary, until the code is correct
 2. **[Context-Aware Code Generation Framework for Code Repositories: Local, Global, and Third-Party Library Awareness](https://arxiv.org/abs/2312.05772)** (from software engieerning)
     * Focus on enhancing the retrieval process (based on GPT-3.5-Turbo)
-3. **[CODEAGENT: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges]((https://arxiv.org/pdf/2401.07339.pdf))** (from software engieerning)
+3. **[CODEAGENT: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges](https://arxiv.org/pdf/2401.07339.pdf)** (from software engieerning)
     * propose a benchmark for evaluation. 
     * Method: use tool to retrieve, rather than similarity
 4. **[Repository-Level Prompt Generation for Large Language Models of Code](https://arxiv.org/pdf/2206.12839.pdf)** (ICML 2023)
