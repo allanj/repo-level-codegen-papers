@@ -7,6 +7,7 @@ Feel free to create pull request to add more.
 
 # Papers
 1. 03/2024: **[Repoformer: Selective Retrieval for Repository-Level Code Completion](https://arxiv.org/abs/2403.10059)**
+    * A pre-training approach to tackle repo-level code retrieval
 2. 02/2024: **[Enhancing LLM-Based Coding Tools through Native Integration of IDE-Derived Static Context](https://arxiv.org/pdf/2402.03630.pdf)**
     * Leverage the IDE cross-file information for LLM to perform repo-level code generation. 
 3. 01/2024: **[CODEAGENT: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges](https://arxiv.org/pdf/2401.07339.pdf)** (from software engieerning)
