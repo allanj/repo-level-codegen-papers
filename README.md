@@ -6,30 +6,32 @@ This repo maintains the list of papers for repo-level code generation.
 Feel free to create pull request to add more.
 
 # Papers
-1. 06/2024： **[Enhancing Repository-Level Code Generation with Integrated Contextual Information](https://arxiv.org/pdf/2406.03283)**
+1. 06/2024： **[R2C2-Coder: Enhancing and Benchmarking Real-world Repository-level Code Completion Abilities of Code Large Language Models](https://arxiv.org/abs/2406.01359)**
+    *  A repo-level completion benchmark and a context retrieval and prompt assemble powered code completion framework.
+2. 06/2024： **[Enhancing Repository-Level Code Generation with Integrated Contextual Information](https://arxiv.org/pdf/2406.03283)**
     *  Designed for statically typed programming languages. Integrate relevant code and type context.
-2. 03/2024: **[Repoformer: Selective Retrieval for Repository-Level Code Completion](https://arxiv.org/abs/2403.10059)**
+3. 03/2024: **[Repoformer: Selective Retrieval for Repository-Level Code Completion](https://arxiv.org/abs/2403.10059)**
     * A pre-training approach to tackle repo-level code retrieval
-3. 02/2024: **[Enhancing LLM-Based Coding Tools through Native Integration of IDE-Derived Static Context](https://arxiv.org/pdf/2402.03630.pdf)**
+4. 02/2024: **[Enhancing LLM-Based Coding Tools through Native Integration of IDE-Derived Static Context](https://arxiv.org/pdf/2402.03630.pdf)**
     * Leverage the IDE cross-file information for LLM to perform repo-level code generation. 
-4. 01/2024: **[CODEAGENT: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges](https://arxiv.org/pdf/2401.07339.pdf)** (from software engieerning)
+5. 01/2024: **[CODEAGENT: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges](https://arxiv.org/pdf/2401.07339.pdf)** (from software engieerning)
     * propose a benchmark for evaluation. 
     * Method: use tool to retrieve, rather than similarity
-5. 12/2023: **[Context-Aware Code Generation Framework for Code Repositories: Local, Global, and Third-Party Library Awareness](https://arxiv.org/abs/2312.05772)** (from software engieerning)
+6. 12/2023: **[Context-Aware Code Generation Framework for Code Repositories: Local, Global, and Third-Party Library Awareness](https://arxiv.org/abs/2312.05772)** (from software engieerning)
     * Focus on enhancing the retrieval process (based on GPT-3.5-Turbo)
-6. 11/2023: **[Guiding Language Models of Code with Global Context using Monitors](https://arxiv.org/abs/2306.10763)**
+7. 11/2023: **[Guiding Language Models of Code with Global Context using Monitors](https://arxiv.org/abs/2306.10763)**
     * Maintain a monitor while performing repo-level code generation
-7. 10/2023: **[CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion](https://arxiv.org/pdf/2310.11248.pdf)**
+8. 10/2023: **[CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion](https://arxiv.org/pdf/2310.11248.pdf)**
     * benchmark that required cross-file reasoning
-8. 09/2023: **[CodePlan: Repository-level Coding using LLMs and Planning](https://arxiv.org/pdf/2309.12499.pdf)**
+9. 09/2023: **[CodePlan: Repository-level Coding using LLMs and Planning](https://arxiv.org/pdf/2309.12499.pdf)**
     * plan first, then execute
-9. 06/2023: **[RepoFusion: Training Code Models to Understand Your Repository](https://arxiv.org/abs/2306.10998)**
+10. 06/2023: **[RepoFusion: Training Code Models to Understand Your Repository](https://arxiv.org/abs/2306.10998)**
     * trained to understand the whole repo
-10. 03/2023: **[RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation](https://arxiv.org/abs/2303.12570)** (EMNLP 2023)
+11. 03/2023: **[RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation](https://arxiv.org/abs/2303.12570)** (EMNLP 2023)
     * Iteratively retrieve code from repo based on similary, until the code is correct
-11. 03/2023: **[InferFix: End-to-End Program Repair with LLMs](https://arxiv.org/pdf/2303.07263.pdf)** (ICSE)
+12. 03/2023: **[InferFix: End-to-End Program Repair with LLMs](https://arxiv.org/pdf/2303.07263.pdf)** (ICSE)
     * query the database to retrieve
-12. 06/2022: **[Repository-Level Prompt Generation for Large Language Models of Code](https://arxiv.org/pdf/2206.12839.pdf)** (ICML 2023)
+13. 06/2022: **[Repository-Level Prompt Generation for Large Language Models of Code](https://arxiv.org/pdf/2206.12839.pdf)** (ICML 2023)
     * generate prompt based on the complete repo, classify from a list of prompt proposal
 
 
