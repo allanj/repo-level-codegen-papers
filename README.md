@@ -6,10 +6,16 @@ This repo maintains the list of papers for repo-level code generation.
 Feel free to create pull request to add more.
 
 # Papers
+1. 06/2024: **[Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback](https://arxiv.org/pdf/2403.16792)**
+   * iteratively retrieve the context based on the compiler feedback
+1. 06/2024: **[GraphCoder: Enhancing Repository-Level Code Completion via Code Context Graph-based Retrieval and Language Model](https://arxiv.org/pdf/2406.07003)**
+    * Slicing the blocks/lines of code as retrieved context
 1. 06/2024： **[R2C2-Coder: Enhancing and Benchmarking Real-world Repository-level Code Completion Abilities of Code Large Language Models](https://arxiv.org/abs/2406.01359)**
     *  A repo-level completion benchmark and a context retrieval and prompt assemble powered code completion framework.
 2. 06/2024： **[Enhancing Repository-Level Code Generation with Integrated Contextual Information](https://arxiv.org/pdf/2406.03283)**
     *  Designed for statically typed programming languages. Integrate relevant code and type context.
+3. 05/2024: **[Dataflow-Guided Retrieval Augmentation for Repository-Level Code Completion](https://arxiv.org/pdf/2405.19782)**
+    * ACL-2024 accepted: extract entities and relations formalism, to obtain the context graph
 3. 03/2024: **[Repoformer: Selective Retrieval for Repository-Level Code Completion](https://arxiv.org/abs/2403.10059)**
     * A pre-training approach to tackle repo-level code retrieval
 4. 02/2024: **[Enhancing LLM-Based Coding Tools through Native Integration of IDE-Derived Static Context](https://arxiv.org/pdf/2402.03630.pdf)**
@@ -40,6 +46,7 @@ Feel free to create pull request to add more.
 
 
 # Survey Papers
+1. 06/2024: [A Survey on Large Language Models for Code Generation](https://arxiv.org/pdf/2406.00515)
 1. 01/2024: [If LLM Is the Wizard, Then Code Is the Wand: A Survey on How Code Empowers Large Language Models to Serve as Intelligent Agents](https://arxiv.org/pdf/2401.00812.pdf)
 
 # Relevant Agent-based Papers
