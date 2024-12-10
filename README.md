@@ -5,11 +5,19 @@ This repo maintains the list of papers for repo-level code generation.
 
 Feel free to create pull request to add more.
 
+# Benchmark 
 
+
+1. 12/2024: **[FullStack Bench: Evaluating LLMs as Full Stack Coders](https://arxiv.org/pdf/2412.00535)**
+2. 10/2024: **[RepoBench: Benchmarking Repository-Level Code Auto-Completion Systems](https://arxiv.org/abs/2306.03091)**
+3. 2023, **[SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770)**
+3. 2023, RepoEval: **[Repocoder: Repository-level code completion through iterative retrieval and generation](https://arxiv.org/abs/2303.12570)**
 
 # Papers
+1. 2024: **[EVOR: Evolving Retrieval for Code Generation](https://aclanthology.org/2024.findings-emnlp.143.pdf)**
 1. 11/2024: **[Repository-level Code Translation Benchmark Targeting Rust](https://arxiv.org/pdf/2411.13990)**
 2. 10/2024: **[Repository-Level Compositional Code Translation and Validation](https://arxiv.org/pdf/2410.24117)**
+3. 10/2024: **[M2rc-Eval: Massively Multilingual Repository-level Code Completion Evaluation](https://arxiv.org/abs/2410.21157)**
 3. 06/2024: **[How to Understand Whole Software Repository](https://arxiv.org/pdf/2406.01422)**
 4. 06/2024: **[Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback](https://arxiv.org/pdf/2403.16792)**
    * iteratively retrieve the context based on the compiler feedback
