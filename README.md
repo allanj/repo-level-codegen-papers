@@ -9,16 +9,25 @@ Feel free to create pull request to add more.
 
 
 1. 12/2024: **[FullStack Bench: Evaluating LLMs as Full Stack Coders](https://arxiv.org/pdf/2412.00535)**
+    * Benchmark for full-stack programming in many domains, and also release sandbox tool to evaluate.
 2. 10/2024: **[RepoBench: Benchmarking Repository-Level Code Auto-Completion Systems](https://arxiv.org/abs/2306.03091)**
+    * Data mostly extracted from GitHub, task designed as retrieval and completion, etc. Using matching accuracy as evaluation metric.
 3. 2023, **[SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770)**
+    * Well-known benchmark to evaluate the agent's capabilties.
 3. 2023, RepoEval: **[Repocoder: Repository-level code completion through iterative retrieval and generation](https://arxiv.org/abs/2303.12570)**
+    * Similar to RepoBench, data is also extracted from GitHub
 
 # Papers
 1. 2024: **[EVOR: Evolving Retrieval for Code Generation](https://aclanthology.org/2024.findings-emnlp.143.pdf)**
+    * Design a way to improve the quality of the knowledge for retrieval. Overall, the framework is RAG for code generation
 1. 11/2024: **[Repository-level Code Translation Benchmark Targeting Rust](https://arxiv.org/pdf/2411.13990)**
+    * Work on repo-level code translation task? (not sure about this task, it seems translating into test cases)
 2. 10/2024: **[Repository-Level Compositional Code Translation and Validation](https://arxiv.org/pdf/2410.24117)**
+    * Design a pipeline for code translation
 3. 10/2024: **[M2rc-Eval: Massively Multilingual Repository-level Code Completion Evaluation](https://arxiv.org/abs/2410.21157)**
+    * A benchmark and also an instruction-tuning dataset for code completion.
 3. 06/2024: **[How to Understand Whole Software Repository](https://arxiv.org/pdf/2406.01422)**
+    * Try to resolve the task in SWE-Bench, using some ASE methods.
 4. 06/2024: **[Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback](https://arxiv.org/pdf/2403.16792)**
    * iteratively retrieve the context based on the compiler feedback
 2.  06/2024: **[GraphCoder: Enhancing Repository-Level Code Completion via Code Context Graph-based Retrieval and Language Model](https://arxiv.org/pdf/2406.07003)**
