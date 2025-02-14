@@ -18,6 +18,8 @@ Feel free to create pull request to add more.
     * Similar to RepoBench, data is also extracted from GitHub
 
 # Papers
+1. 2024: **[RLCoder: Reinforcement Learning for Repository-Level Code Completion](https://arxiv.org/abs/2407.19487)** (ICSE 2025)
+    * Using RL to implement Repo-level code completion based on RAG method.
 1. 2024: **[EVOR: Evolving Retrieval for Code Generation](https://aclanthology.org/2024.findings-emnlp.143.pdf)**
     * Design a way to improve the quality of the knowledge for retrieval. Overall, the framework is RAG for code generation
 1. 11/2024: **[Repository-level Code Translation Benchmark Targeting Rust](https://arxiv.org/pdf/2411.13990)**
