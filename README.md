@@ -12,9 +12,13 @@ Feel free to create pull request to add more.
     * Benchmark for full-stack programming in many domains, and also release sandbox tool to evaluate.
 2. 10/2024: **[RepoBench: Benchmarking Repository-Level Code Auto-Completion Systems](https://arxiv.org/abs/2306.03091)**
     * Data mostly extracted from GitHub, task designed as retrieval and completion, etc. Using matching accuracy as evaluation metric.
-3. 2023, **[SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770)**
+3. 10/2024: **[ EvoCodeBench: An Evolving Code Generation Benchmark with Domain-Specific Evaluations](https://arxiv.org/abs/2410.22821)**
+
+    - A dynamically evolving code generation benchmark designed to address data leakage and provide domain-specific evaluations by periodically updating datasets.
+
+4. 2023, **[SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770)**
     * Well-known benchmark to evaluate the agent's capabilties.
-3. 2023, RepoEval: **[Repocoder: Repository-level code completion through iterative retrieval and generation](https://arxiv.org/abs/2303.12570)**
+5. 2023, RepoEval: **[Repocoder: Repository-level code completion through iterative retrieval and generation](https://arxiv.org/abs/2303.12570)**
     * Similar to RepoBench, data is also extracted from GitHub
 
 # Papers
