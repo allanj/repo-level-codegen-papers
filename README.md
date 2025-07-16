@@ -24,7 +24,9 @@ Feel free to create pull request to add more.
     * Similar to RepoBench, data is also extracted from GitHub
 
 # Papers
-1. 3/2025: **[What to Retrieve for Effective Retrieval-Augmented Code
+1. 06/2025: **[Repository-Level Code Understanding by LLMs via Hierarchical Summarization: Improving Code Search and Bug Localization](https://link.springer.com/chapter/10.1007/978-3-031-97576-9_6)** (ICCSA 2025)
+    * Enabling LLMs to Understand Code at Repository-level using Hierarchical Summarization for Code Search and Bug Localization  
+2. 3/2025: **[What to Retrieve for Effective Retrieval-Augmented Code 
 Generation? An Empirical Study and Beyond](https://arxiv.org/abs/2503.20589)**
     - An emperical study on the retrieved information of current works and their effectiveness. Proposed AllianceCoder, which decomposes user query into query on invoked API. Then retrieve those APIs and use them to generate function-level code.
 1. 2024: **[RLCoder: Reinforcement Learning for Repository-Level Code Completion](https://arxiv.org/abs/2407.19487)** (ICSE 2025)
