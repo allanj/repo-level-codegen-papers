@@ -8,20 +8,24 @@ Feel free to create pull request to add more.
 # Benchmark 
 
 
-1. 12/2024: **[FullStack Bench: Evaluating LLMs as Full Stack Coders](https://arxiv.org/pdf/2412.00535)**
+1. 7/2025: **[SWE-Perf: Can Language Models Optimize Code Performance on Real-World Repositories?](https://arxiv.org/abs/2507.12415)**
+    * Presents SWE-Perf, the first benchmark targeting repository-level performance optimization. Includes 140 instances from real-world pull requests, with executable environments, performance tests, and expert patches, covering both file-level (Oracle) and repo-level (Realistic) optimization.
+
+2. 6/2025: **[SWE-Dev: Evaluating and Training Autonomous Feature-Driven Software Development](https://arxiv.org/abs/2505.16975)**
+    * Introduces SWE-Dev, a large-scale dataset (14k training + 500 test samples) for feature-driven development (FDD) tasks on large codebases, each with runnable environments and unit tests. Enables evaluation and training with SFT, RL, and multi-agent setups.
+
+3. 12/2024: **[FullStack Bench: Evaluating LLMs as Full Stack Coders](https://arxiv.org/pdf/2412.00535)**
     * Benchmark for full-stack programming in many domains, and also release sandbox tool to evaluate.
-2. 10/2024: **[RepoBench: Benchmarking Repository-Level Code Auto-Completion Systems](https://arxiv.org/abs/2306.03091)**
+4. 10/2024: **[RepoBench: Benchmarking Repository-Level Code Auto-Completion Systems](https://arxiv.org/abs/2306.03091)**
     * Data mostly extracted from GitHub, task designed as retrieval and completion, etc. Using matching accuracy as evaluation metric.
-3. 10/2024: **[ EvoCodeBench: An Evolving Code Generation Benchmark with Domain-Specific Evaluations](https://arxiv.org/abs/2410.22821)**
-
+5. 10/2024: **[EvoCodeBench: An Evolving Code Generation Benchmark with Domain-Specific Evaluations](https://arxiv.org/abs/2410.22821)**
     - A dynamically evolving code generation benchmark designed to address data leakage and provide domain-specific evaluations by periodically updating datasets.
-
-4. 6/2024: **[REPOEXEC: Evaluate Code Generation with a Repository-Level Executable Benchmark](https://arxiv.org/abs/2406.11927v2)**
-   - executable python benchmark focuses on the pass rate of repository function level code generation
-5. 2023, **[SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770)**
-    * Well-known benchmark to evaluate the agent's capabilties.
-6. 2023, RepoEval: **[Repocoder: Repository-level code completion through iterative retrieval and generation](https://arxiv.org/abs/2303.12570)**
-    * Similar to RepoBench, data is also extracted from GitHub
+6. 6/2024: **[REPOEXEC: Evaluate Code Generation with a Repository-Level Executable Benchmark](https://arxiv.org/abs/2406.11927v2)**
+   - Executable python benchmark focuses on the pass rate of repository function level code generation.
+7. 2023, **[SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770)**
+    * Well-known benchmark to evaluate the agent's capabilities.
+8. 2023, RepoEval: **[Repocoder: Repository-level code completion through iterative retrieval and generation](https://arxiv.org/abs/2303.12570)**
+    * Similar to RepoBench, data is also extracted from GitHub.
 
 # Papers
 1. 12/2025: **[Natural Language Summarization Enables Multi-Repository Bug Localization by LLMs in Microservice Architectures](https://arxiv.org/abs/2512.05908)** (ICSE 2026 Workshop)
